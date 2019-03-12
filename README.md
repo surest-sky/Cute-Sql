@@ -24,28 +24,28 @@
 
 - 查看当前服务器下的所有数据库
 
-    $csql->showDatabase();
+        $csql->showDatabase();
     
 - 查看对应数据库下的所有数据表
 
-    $csql->showTable();
+        $csql->showTable();
     
 - 查看对应数据列的详细信息
 
-    $csql->showColumn($table);
+        $csql->showColumn($table);
 
 - 查看数据表结构信息
 
-    $csql->showCreateTable($tableName);
+        $csql->showCreateTable($tableName);
     
 - 查看指定数据库的所有表
 
-    # 当 $database 不存在时间， 默认为 Cdpo.php 中设置的参数值
-    $csql->showTableByDatabase($database);
+        # 当 $database 不存在时间， 默认为 Cdpo.php 中设置的参数值
+        $csql->showTableByDatabase($database);
     
 - 查看表的索引信息
 
-    $csql->showTableIndex($tableName);
+        $csql->showTableIndex($tableName);
     
 - 导出表
 
@@ -54,15 +54,15 @@
     | $tableName | string | 表名称 |
     | $bol | bool | 是否获取字符串还是直接导出表结构至文件中 |
     
-    $csql->exportSql($tableName);
+        $csql->exportSql($tableName);
     
 - 导入表
 
-    $csql->importSql($filePath);
+        $csql->importSql($filePath);
     
 - 导出当前数据库至文件中
 
-    $csql->exportDatabase();
+        $csql->exportDatabase();
     
     
 配置文件暂时保存在 `Cpdo.php` 后续会增加功能迭代，使用前请阅读 `Cpdo.php`
