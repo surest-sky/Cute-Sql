@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Surest\\Csql\\": "src/Surest/Csql"
+            "Surest\\Csql\\": "src/"
         }
     },
     "minimum-stability": "dev",

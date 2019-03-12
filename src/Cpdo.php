@@ -6,7 +6,7 @@
  * Time: 17:49
  */
 
-namespace surest\csql;
+namespace Surest\Csql;
 
 
 class Cpdo

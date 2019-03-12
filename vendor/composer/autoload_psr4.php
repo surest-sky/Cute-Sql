@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Surest\\Csql\\' => array($baseDir . '/src/Surest/Csql'),
+    'Surest\\Csql\\' => array($baseDir . '/src'),
 );

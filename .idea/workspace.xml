@@ -10,6 +10,13 @@
       <change beforePath="$PROJECT_DIR$/../../application/admin/model/NodeModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../application/admin/model/NodeModel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../back/snake_node.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../back/snake_node.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/composer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/composer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Surest/Csql/Chelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Surest/Csql/Cpdo.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cpdo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Surest/Csql/Csql.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Csql.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Surest/Csql/CuteSqlProvider.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../thinkphp/base.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../thinkphp/base.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../thinkphp/library/think/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../thinkphp/library/think/Model.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../vendor/autoload.php" afterDir="false" />
@@ -34,15 +41,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Surest/Csql/Csql.php">
+        <entry file="file://$PROJECT_DIR$/src/Csql.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="95">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -52,19 +59,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Surest/Csql/Cpdo.php">
+        <entry file="file://$PROJECT_DIR$/src/Cpdo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-154">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            <state relative-caret-position="133">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Surest/Csql/Chelper.php">
+        <entry file="file://$PROJECT_DIR$/src/Chelper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+            <state relative-caret-position="57">
+              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -72,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="95">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -89,13 +105,16 @@
         <option value="$PROJECT_DIR$/Csql.php" />
         <option value="$PROJECT_DIR$/Test.php" />
         <option value="$PROJECT_DIR$/test/Test.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/Surest/Csql/Cpdo.php" />
         <option value="$PROJECT_DIR$/src/Surest/Csql/Chelper.php" />
         <option value="$PROJECT_DIR$/src/Surest/Csql/back/test2.sql" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/src/Surest/Csql/Csql.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/Chelper.php" />
+        <option value="$PROJECT_DIR$/src/Cpdo.php" />
+        <option value="$PROJECT_DIR$/src/Csql.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
       </list>
     </option>
   </component>
@@ -124,6 +143,11 @@
               <item name="composer" type="b2602c69:ProjectViewProjectNode" />
               <item name="composer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="composer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="composer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -139,11 +163,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\snake\public\composer\src" />
       <recent name="D:\xampp\htdocs\composer\src\Surest\cute-sql" />
       <recent name="D:\xampp\htdocs\composer\src\Surest" />
       <recent name="D:\xampp\htdocs\composer\src\】" />
       <recent name="D:\xampp\htdocs\composer\src\cute-sql" />
-      <recent name="D:\xampp\htdocs\composer\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -170,12 +194,12 @@
       <updated>1552307185857</updated>
       <workItem from="1552307187331" duration="2998000" />
       <workItem from="1552310400180" duration="3948000" />
-      <workItem from="1552392574902" duration="5867000" />
+      <workItem from="1552392574902" duration="6434000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12813000" />
+    <option name="totallyTimeSpent" value="13380000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -226,13 +250,6 @@
     <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="749">
@@ -254,27 +271,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Surest/Csql/Chelper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Surest/Csql/Cpdo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Surest/Csql/back/test2.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="574">
@@ -290,17 +286,48 @@
         <state relative-caret-position="-342" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Surest/Csql/Csql.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Chelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CuteSqlProvider.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Csql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Cpdo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
         </state>
       </provider>
     </entry>

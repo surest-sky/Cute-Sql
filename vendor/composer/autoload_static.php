@@ -16,7 +16,7 @@ class ComposerStaticInit5dae7b2caf93fe3e4a6eac2904cd5707
     public static $prefixDirsPsr4 = array (
         'Surest\\Csql\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src/Surest/Csql',
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
