@@ -74,12 +74,12 @@ class Csql
     /**
      * 查看创建数据表信息
      *
-     * @param string $name
+     * @param string $tableName
      * @return string
      */
-    public function showCreateTable(string $name): string
+    public function showCreateTable(string $tableName): string
     {
-        $result = $this->link->query("show create table {$name}");
+        $result = $this->link->query("show create table {$tableName}");
 
         $result = Chelper::toArray($result)->get('Create Table');
 
@@ -88,11 +88,12 @@ class Csql
 
 
     /**
+     * 查看表的详细信息
      *
      * @param string|null $database 查看指定表
      * @return array
      */
-    public function showTableStatus(string $database = null): array
+    public function showTableByDatabase(string $database = null): array
     {
         if( !is_null($database) ) {
             $result = $this->link->query("show table status from {$database}");
@@ -114,11 +115,11 @@ class Csql
      * @return false|mixed|\PDOStatement
      * @throws \Exception
      */
-    public function showTableIndex(string $table = null)
+    public function showTableIndex(string $tableName = null)
     {
-        if(is_null($table)) throw new Exception('请输入表名称');
+        if(is_null($tableName)) throw new Exception('请输入表名称');
 
-        $result = $this->link->query("show index from {$table}");
+        $result = $this->link->query("show index from {$tableName}");
 
         $result = Chelper::toArray($result)->get();
 
@@ -192,19 +193,19 @@ class Csql
      *
      * @param string $sql
      */
-    public function importSql(string $file)
+    public function importSql(string $filePath)
     {
-        if( !is_file($file) ) {
-            throw new \Exception($file . "不是一个文件");
+        if( !is_file($filePath) ) {
+            throw new \Exception($filePath . "不是一个文件");
         }
 
-        $ext = pathinfo($file, PATHINFO_EXTENSION);
+        $ext = pathinfo($filePath, PATHINFO_EXTENSION);
 
         if( !in_array($ext, ['sql']) ) {
-            throw new \Exception($file . "必须是一个sql文件");
+            throw new \Exception($filePath . "必须是一个sql文件");
         }
 
-        $sqlStr = file_get_contents($file);
+        $sqlStr = file_get_contents($filePath);
         $this->link->query($sqlStr);
 
         echo "导入成功\r\n";

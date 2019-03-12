@@ -17,8 +17,7 @@ $z = new Csql();
 //$z->showColumn('test2');
 
 //$r = $z->showCreateTable('test');
-//$r = $z->showTableStatus('test');
+$r = $z->showTableStatus('snake');
 //$r = $z->importSql('2');
 //$r = $z->exportSql('test2');
-$r = $z->exportDatabase();
-
+//$r = $z->exportDatabase();
