@@ -1,0 +1,19 @@
+{
+    "name": "surest/cut-sql",
+    "description": "这一个测试包",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "surest",
+            "email": "ar13133@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Surest\\Csql\\": "src/Surest/Csql"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
